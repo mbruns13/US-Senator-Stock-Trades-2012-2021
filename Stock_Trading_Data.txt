@@ -1,24 +1,3 @@
-Variable Explanation:
-
-senator- Name of Senator (first last)
-party- 0= Republican, 1= Democrat, 2= Independent
-sex- 1=Male, 0=Female
-trade_date- Date of initial transaction
-owner- Owner of the trade (Spouse, Child, or Self=Senator)
-ticker- Stock Ticker
-type- Purchase or Sale
-trade_amount_max- Maximum amount the trade could have been
-trade_amount_min- Minimum amount the trade could have been
-buy_one_year_change- One year change in value of the stock purchased from the date of transaction
-one_mo_vtsax_change- One month change in value of the VTSAX from the date of transaction
-one_year_vtsax_change- One year change in value of the VTSAX from the date of transaction
-buy_compare_one_year- Change in stock value minus change in VTSAX after one year from date of transaction
-one_month_sell- One month change in value of the stock sold from the date of transaction
-one_month_sell_compare- Change in stock value minus change in VTSAX after one month from date of transaction
-weight- Weighted value of the average between the minimum and maximum amount the trade could have been
-
-Data:
-
 senator,party,sex,trade_date,owner,ticker,type,trade_amount_max,trade_amount_min,buy_one_year_change,one_mo_vtsax_change,one_year_vtsax_change,buy_compare_one_year,one_month_sell,one_month_sell_compare,weight
 Thomas Carper,1,1,29jan2021,Spouse,XCAPX,Purchase,50000,15000,,.031875463,,,,,4.0599999
 Patrick Toomey,0,1,28jan2021,Child,GME,Sale,15000,1000,,.01632356,,,-.438378099,-.454701659,1
