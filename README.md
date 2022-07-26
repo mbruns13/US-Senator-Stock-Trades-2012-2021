@@ -4,7 +4,6 @@
 Northwestern Data Science Bootcamp - Project 2
 Sodiq Alagbada, Molly Bruns, Tim Bryan, and Andrew Goodwin
 
----
 [add paragraph about proposal, project purpose here]
 - what is the data sources? data description - sources, format, etc.
 - database type
