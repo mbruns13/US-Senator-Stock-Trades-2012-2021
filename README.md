@@ -2,6 +2,7 @@
 # ETL Project Report: US Senator Stock Trades - 2012-2021
 
 Northwestern Data Science Bootcamp - Project 2
+
 Sodiq Alagbada, Molly Bruns, Tim Bryan, and Andrew Goodwin
 
 [add paragraph about proposal, project purpose here]
