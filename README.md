@@ -7,17 +7,26 @@ Sodiq Alagbada, Molly Bruns, Tim Bryan, and Andrew Goodwin
 
 ---
 
-[add paragraph about proposal, project purpose here]
-- what is the data sources? data description - sources, format, etc.
-- database type
-- questions to ask of the data:
-- use case
+### Proposal
+
+There has been increased concern over whether the stock trading of members in the U.S. congress are over performing the market. With this dataset of trading records for U.S. Senators from 2012 to 2021, we seek to answer if our representatives have an inherent, unfair advantage while trading.
+
+Several indicators we will use from this dataset to determine stock trading performance are:
+- Relative size of purchase or sale in individual stock
+- Performance of individual stock vs the market as a whole
+- Performance of individual stock over either one-month or one-year’s time
+
+Other characteristics we will use to filter/compare data are:
+- Owner of the trade (Senator, spouse, or child)
+- Political party of trader
+- Sex of trader
+- Sector of individual stock
 
 ### Extract
 
 The data for senator stock trades was found on the [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/XPDSYQ) site and was downloaded as a .txt file. This dataset contained information about the senators and their stock trades between 2012 and 2021. It also includes trades reported by their spouses and/or children.
 
-We also used [Yahoo Finance](https://finance.yahoo.com/) to add sectors associated with each ticker/company. We had first tried using several APIs, but ran into issues with the amount of calls allowed per minute and runtime. We ended up scraping the Yahoo Finance site for this sector data instead.
+We also used [Yahoo Finance](https://finance.yahoo.com/) to add sectors associated with each ticker/company. We had first tried using several APIs, but ran into issues with the amount of calls allowed per minute and runtime. We decided to scrape the Yahoo Finance site for this sector data instead.
 
 ### Transform
 
