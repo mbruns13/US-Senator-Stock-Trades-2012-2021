@@ -17,7 +17,7 @@ Sodiq Alagbada, Molly Bruns, Tim Bryan, and Andrew Goodwin
 
 The data for senator stock trades was found on the [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/XPDSYQ) site and was downloaded as a .txt file. This dataset contained information about the senators and their stock trades between 2012 and 2021. It also includes trades reported by their spouses and/or children.
 
-We also used Yahoo Finance data to add sectors associated with each ticker/company. We had first tried using several APIs, but ran into issues with the amount of calls allowed per minute and runtime. We ended up scraping the Yahoo Finance site for this sector data instead.
+We also used [Yahoo Finance](https://finance.yahoo.com/) to add sectors associated with each ticker/company. We had first tried using several APIs, but ran into issues with the amount of calls allowed per minute and runtime. We ended up scraping the Yahoo Finance site for this sector data instead.
 
 ### Transform
 
