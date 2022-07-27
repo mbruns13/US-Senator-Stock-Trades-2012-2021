@@ -40,4 +40,4 @@ All of our data was loaded into a relational database, using pgAdmin and Postgre
 
 ### Next Steps
 
-The next step in this process would be to ...
+The next step in this process would be to use the data gathered and organized to understand what, if any, advantages Senators have in the stock market. As stated previously, we have a host of metrics to analyze their affect in order to answer our question and could even gather more data to support or make new findings.
