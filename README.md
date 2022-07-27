@@ -36,7 +36,7 @@ We used BeautifulSoup to scrape the Yahoo Finance pages for each unique ticker, 
 
 ### Load
 
-All of our data was loaded into a relational database, using pgAdmin and PostgreSQL. We chose to use a relational database for this data because ...
+All of our data was loaded into a relational database, using pgAdmin and PostgreSQL. We chose to use a relational database for this data because the main dataset was table and row oriented, and based on the tickers we were able to join additional data into the dataframe. The advantage of loading this into a database is the ability to use SQL for querying, easy connection to applications or websites, and scalability.
 
 ### Next Steps
 
